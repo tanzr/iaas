@@ -17,6 +17,8 @@ In Vagrant:
     (update production.ini if needed, e.g. add host=0.0.0.0)
     systemctl stop iptables
     python setup.py develop 
-        or python setup.py install
+or     
+    python setup.py install
     pserve --reload developent.ini 
-        or pserve production.ini
+or 
+    pserve production.ini
